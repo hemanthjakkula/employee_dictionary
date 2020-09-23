@@ -9,7 +9,7 @@ const fetchJson = (url, options = {}) => {
   return fetchUtils.fetchJson(url, options);
 };
 
-const apiUrl = "http://localhost/api_softwarelabs";
+const apiUrl = "https://api-softwarelabs.herokuapp.com";
 const httpClient = fetchJson;
 
 const dataProvider = {
